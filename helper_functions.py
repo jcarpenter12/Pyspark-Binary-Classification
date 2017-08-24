@@ -1,14 +1,13 @@
 from pyspark import SparkContext, SparkConf
-from pyspark.ml.classification import LogisticRegression
-from pyspark.sql import SQLContext, Row
-from pyspark.sql.types import IntegerType
-from pyspark.sql.functions import UserDefinedFunction
-from pyspark.mllib.linalg import Vectors
+# from pyspark.ml.classification import LogisticRegression
+# from pyspark.sql import SQLContext, Row
+# from pyspark.sql.types import IntegerType
+# from pyspark.sql.functions import UserDefinedFunction
+# from pyspark.mllib.linalg import Vectors
 import os
-import pyspark_csv as pycsv
+#import pyspark_csv as pycsv
 
 os.environ["SPARK_LOCAL_IP"] = "127.0.1.1" # set local IP
-print('GOT HERE')
 
 def create_spark_context():
 
