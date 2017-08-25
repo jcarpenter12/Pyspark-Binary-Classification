@@ -12,7 +12,6 @@ Clone repo with the following
 
 ```
 git clone https://github.com/jcarpenter12/Pyspark-Binary-Classification.git
-
 ```
 
 To run the binary classifier either open the `draft_notebook.ipynb` in jupyter
@@ -22,7 +21,6 @@ With a local spark cluster running submit
 
 ```
 spark-submit --master pyspark_classification_functions.py
-
 ```
 
 or
@@ -31,5 +29,4 @@ without a cluster running
 
 ```
 python pyspark_classification_functions.py
-
 ```
