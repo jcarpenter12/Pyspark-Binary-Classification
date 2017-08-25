@@ -11,7 +11,7 @@ can be found here https://goo.gl/Zhzk1S
 Clone repo with the following
 
 ```
-git clone
+git clone https://github.com/jcarpenter12/Pyspark-Binary-Classification.git
 
 ```
 
